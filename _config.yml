@@ -62,7 +62,7 @@ owner:
 ## sidebar links:
 # For external links add external: true
 links:
-  - title: <i class="iconside iconm-home"></i> Inicio
+  - title: <a title="Daniel" href="/blog2"><img src="https://sites.google.com/site/daesweb/_/rsrc/1498428880214/tesis/escobarzoho6.png" />
     url: /
   - title: <i class="iconside iconm-home"></i> Inicio
     url: /
