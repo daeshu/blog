@@ -5,15 +5,7 @@ title: Daniel Escobar web
 description: "Mi sitio personal ...."
 ---
 
-## [lanyon-plus](https://github.com/dyndna/lanyon-plus)
-
-Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](https://github.com/mdo)
-
-* add-ons by [Samir Amin](http://sbamin.com)
-* [Site features]({{ site.url}}/disclosure#i-classfa-fa-thumbs-o-up-credits-for-site-featuresi)
-* License: Open sourced under the [MIT license](http://sbamin.com/disclosure/#theme-major-credit--license). 
-
-Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
+Hola soy **Daniel**, bienvenido a mi _sitio_ ;)
 
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
@@ -24,9 +16,9 @@ Maximum four posts on front page where first two posts are featured, and remaini
   height="250"
   href="https://twitter.com/{{ site.owner.twitter }}"
   data-widget-id="{{ site.twitter_widget_id }}"
-  data-tweet-limit="2"
+  data-tweet-limit="1"
   data-chrome="noheader nofooter noborders noscrollbar transparent">
-  Recent Tweets</a>
+  Última publicación</a>
 </div>
 <script>
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
