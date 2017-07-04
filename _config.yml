@@ -9,7 +9,7 @@ encoding: utf-8
 # Setup
 title:               DANIEL
 #tagline:             'foo's website
-description:         '<a title="Daniel" href="/"><img src="https://sites.google.com/site/daesweb/_/rsrc/1498428880214/tesis/escobarzoho6.png" />'
+description:         'Daniel web'
 url: https://blog.escobar.eu.org
 baseurl: "https://blog.escobar.eu.org"
 urlimg: https://blog.escobar.eu.org/images/
