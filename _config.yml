@@ -4,42 +4,29 @@
 #permalink:           pretty
 permalink: /blog/:year/:month/:day/:title/
 relative_permalinks: false
-encoding: utf-8
 
 # Setup
-title:               DANIEL
-#tagline:             'foo's website
-description:         'Daniel web'
-url: https://blog.escobar.eu.org
+title:               Daniel
+#tagline:             'Daniel website
+description:         Daniel web...
+url: 
 baseurl: "https://blog.escobar.eu.org"
-urlimg: https://blog.escobar.eu.org/images/
-#urlimg: https://daeshu.github.io/blog/images/
+urlimg: https://daeshu.github.io/blog/images/
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
 paginate: 5
 paginate_path: "/blog/page:num"
 excerpt_separator: <!--more-->
-default_bg: sitebg.jpg
-default_logo: sitelogo.png
+default_bg: sitelogo.png 
 safe: false
 #timezone:    America/Chicago
 future:      true
 
-
-## code highlight options
-syntax_highlighter: rouge
-input: GFM
-
 gems:
-  - github-pages
+  - jekyll-paginate
+  - jemoji
   - font-awesome-sass
-  - jekyll-redirect-from
-  - jekyll-mentions
-
-jekyll-mentions:
-  base_url: https://twitter.com
+  - kramdown
+  - rouge
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
@@ -48,7 +35,7 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 author:
   name:              Daniel
   url:               https://twitter.com/DanielEscobarW
-  avatar:           foo.png
+  avatar:         foo.png
   #email:           
 
 # Owner/author information
@@ -56,7 +43,7 @@ owner:
   name:           Daniel
   avatar:         foo.png
   #email:          
-  # Use the coder's toolbox at https://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        DanielEscobarW
@@ -67,15 +54,14 @@ owner:
   instagram:      
   flickr:
   tumblr:  
-  google_plus:    
+  google_plus:    https://plus.google.com/+foo
   # orcid and google scholar IDs are different than standard username.
-  orcid: 
-  gscholar:
+  orcid: xyz123abc
+  gscholar: xyz123abc
 
 ## sidebar links:
 # For external links add external: true
 links:
-default_logo: '<a title="Daniel" href="/"><img src="https://sites.google.com/site/daesweb/_/rsrc/1498428880214/tesis/escobarzoho6.png" />'
   - title: <i class="iconside iconm-home"></i> Inicio
     url: /
   - title: <i class="iconside iconm-user"></i> Acerca de
