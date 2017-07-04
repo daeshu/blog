@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: index.html
-title: Personal Homepage of foo boo
-description: "Blogging on ...."
+title: Daniel Escobar web
+description: "Mi sitio personal ...."
 ---
 
 ## [lanyon-plus](https://github.com/dyndna/lanyon-plus)
