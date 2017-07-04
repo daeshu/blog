@@ -62,6 +62,7 @@ owner:
 ## sidebar links:
 # For external links add external: true
 links:
+default_logo: '<a title="Daniel" href="/"><img src="https://sites.google.com/site/daesweb/_/rsrc/1498428880214/tesis/escobarzoho6.png" />'
   - title: <i class="iconside iconm-home"></i> Inicio
     url: /
   - title: <i class="iconside iconm-user"></i> Acerca de
