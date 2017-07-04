@@ -64,6 +64,8 @@ owner:
 links:
   - title: <i class="iconside iconm-home"></i> Inicio
     url: /
+  - title: <i class="iconside iconm-home"></i> Inicio
+    url: /
   - title: <i class="iconside iconm-user"></i> Acerca de
     url: /about/
   - title: <i class="iconside iconm-quill"></i> Blog
