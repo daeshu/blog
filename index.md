@@ -5,7 +5,7 @@ title: Daniel página web personal
 description: "Un poco de nada, que no es poco ...."
 ---
 
-Hola soy Daniel, bienvenido a mi página :) ...
+Hola soy Daniel, bienvenido a mi página ;) ...
 
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
