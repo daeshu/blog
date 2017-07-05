@@ -9,7 +9,7 @@ title:               Daniel
 #tagline:             'Daniel website
 description:         Daniel web...
 url: 
-baseurl: "https://blog.escobar.eu.org"
+baseurl: "https://versoperverso.eu.org"
 urlimg: https://daeshu.github.io/blog/images/
 markdown: kramdown
 paginate: 5
