@@ -46,14 +46,14 @@ layout: default
 
 <div class="prevnext">
   {% if page.previous.url %}
-    <a class="prevnext-item older" href="{{ site.url }}{{page.previous.url}}" title="{{ page.previous.title }}">Older</a>
+    <a class="prevnext-item older" href="{{ site.url }}{{page.previous.url}}" title="{{ page.previous.title }}">Antiguos posts</a>
   {% else %}
-    <span class="prevnext-item older">Older</span>
+    <span class="prevnext-item older">Antiguos posts</span>
   {% endif %}
   {% if page.next.url %}
-    <a class="prevnext-item older" href="{{ site.url }}{{page.next.url}}" title="{{ page.next.title }}">Newer</a>
+    <a class="prevnext-item older" href="{{ site.url }}{{page.next.url}}" title="{{ page.next.title }}">Nuevos posts</a>
   {% else %}
-    <span class="prevnext-item older">Newer</span>
+    <span class="prevnext-item older">Nuevos posts</span>
   {% endif %}
 </div>
 
