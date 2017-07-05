@@ -4,8 +4,8 @@ permalink: index.html
 title: Daniel Escobar web
 description: "Mi sitio personal ...."
 ---
-![My helpful screenshot]({{ site.url }}/images/daniel.jpg)
 ![Daniel]({{site.baseurl}}/images/media/daniel.jpg)
+
 Hola soy **Daniel**, bienvenido a mi _sitio_ ;)
 
 {% if site.twitter_widget_id %}
