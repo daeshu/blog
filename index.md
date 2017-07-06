@@ -4,7 +4,7 @@ permalink: index.html
 title: Daniel Escobar web
 description: "Mi sitio personal ...."
 ---
-![Daniel]({{site.baseurl}}/images/media/daniel.jpg)
+![Daniel]({{site.baseurl}}/images/media/daniel.png)
 
 Hola soy **Daniel**, bienvenido a mi _sitio_ ;)
 
