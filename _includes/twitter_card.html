@@ -3,7 +3,7 @@
 {% if page.videocredit %}<meta name="twitter:site" content="@{{ page.videocredit }}">{% else %}
 <meta name="twitter:site" content="@youtube">{% endif %}
 {% if page.videoimage %}<meta name="twitter:image" content="{{ page.videoimage }}">{% elsif page.imagefeature %}
-  {% if page.imagefeature contains 'http' %}
+  {% if page.imagefeature contains 'https' %}
     {% assign domain = '' %}
   {% else %}
     {% assign domain = site.urlimg %}
@@ -14,7 +14,7 @@
 <meta name="twitter:player:width" content="1920">
 <meta name="twitter:player:height" content="1080">
 {% elsif page.imagefeature %}
-  {% if page.imagefeature contains 'http' %}
+  {% if page.imagefeature contains 'https' %}
     {% assign domain = '' %}
   {% else %}
     {% assign domain = site.urlimg %}
